@@ -19,8 +19,8 @@ You also need to install the [MSFS SDK](https://docs.flightsimulator.com/html/In
 Once everything is installed, execute the follow commands:
 
 ```
-git clone https://github.com/hallidave/daves-landing-monitor
-cd daves-landing-monitor
+git clone https://github.com/hallidave/landing-monitor
+cd landing-monitor
 npm install
 npm run package
 ```
