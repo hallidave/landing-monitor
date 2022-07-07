@@ -1,0 +1,1106 @@
+{ 
+"LocalisationFile": { 
+"Version": "1",
+"UUID": "b1109bea-31bb-406a-bebc-db38b48935d7",
+"Languages": [
+"en-US",
+"de-DE",
+"es-ES",
+"es-MX",
+"fi-FI",
+"fr-FR",
+"it-IT",
+"ja-JP",
+"nb-NO",
+"nl-NL",
+"pl-PL",
+"pt-BR",
+"pt-PT",
+"ru-RU",
+"sv-SE",
+"zh-CN"
+],"Strings": {
+"LANDING.VERTICAL_SPEED":  {
+"UUID": "882c6718-7c3a-47da-aa3b-8ed03d5fc270",
+"LastModifiedBy": "hallidave",
+"LastModifiedDate": "2022-06-15 17:26:33",
+"LocalizationStatus": "Translation Needed",
+"Languages": {
+"en-US": {
+"Text": "Vertical Speed",
+"LocalizationStatus": "Translation Needed"
+},
+"de-DE": {
+"Text": "Vertical Speed",
+"LocalizationStatus": "Translation Needed"
+},
+"es-ES": {
+"Text": "Vertical Speed",
+"LocalizationStatus": "Translation Needed"
+},
+"es-MX": {
+"Text": "Vertical Speed",
+"LocalizationStatus": "Translation Needed"
+},
+"fi-FI": {
+"Text": "Vertical Speed",
+"LocalizationStatus": "Translation Needed"
+},
+"fr-FR": {
+"Text": "Vertical Speed",
+"LocalizationStatus": "Translation Needed"
+},
+"it-IT": {
+"Text": "Vertical Speed",
+"LocalizationStatus": "Translation Needed"
+},
+"ja-JP": {
+"Text": "Vertical Speed",
+"LocalizationStatus": "Translation Needed"
+},
+"nb-NO": {
+"Text": "Vertical Speed",
+"LocalizationStatus": "Translation Needed"
+},
+"nl-NL": {
+"Text": "Vertical Speed",
+"LocalizationStatus": "Translation Needed"
+},
+"pl-PL": {
+"Text": "Vertical Speed",
+"LocalizationStatus": "Translation Needed"
+},
+"pt-BR": {
+"Text": "Vertical Speed",
+"LocalizationStatus": "Translation Needed"
+},
+"pt-PT": {
+"Text": "Vertical Speed",
+"LocalizationStatus": "Translation Needed"
+},
+"ru-RU": {
+"Text": "Vertical Speed",
+"LocalizationStatus": "Translation Needed"
+},
+"sv-SE": {
+"Text": "Vertical Speed",
+"LocalizationStatus": "Translation Needed"
+},
+"zh-CN": {
+"Text": "Vertical Speed",
+"LocalizationStatus": "Translation Needed"
+}
+}
+},
+"LANDING.PITCH_ANGLE":  {
+"UUID": "3e5025b1-d9f7-42d5-a6fc-100844500e6d",
+"LastModifiedBy": "hallidave",
+"LastModifiedDate": "2022-06-15 17:26:21",
+"LocalizationStatus": "Work in Progress",
+"Languages": {
+"en-US": {
+"Text": "Pitch Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"de-DE": {
+"Text": "Pitch Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"es-ES": {
+"Text": "Pitch Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"es-MX": {
+"Text": "Pitch Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"fi-FI": {
+"Text": "Pitch Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"fr-FR": {
+"Text": "Pitch Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"it-IT": {
+"Text": "Pitch Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"ja-JP": {
+"Text": "Pitch Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"nb-NO": {
+"Text": "Pitch Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"nl-NL": {
+"Text": "Pitch Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"pl-PL": {
+"Text": "Pitch Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"pt-BR": {
+"Text": "Pitch Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"pt-PT": {
+"Text": "Pitch Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"ru-RU": {
+"Text": "Pitch Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"sv-SE": {
+"Text": "Pitch Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"zh-CN": {
+"Text": "Pitch Angle",
+"LocalizationStatus": "Translation Needed"
+}
+}
+},
+"LANDING.BANK_ANGLE":  {
+"UUID": "bf5e5cbf-6cf1-4f84-9d56-f0c1c2714dbe",
+"LastModifiedBy": "hallidave",
+"LastModifiedDate": "2022-06-15 17:31:58",
+"LocalizationStatus": "Work in Progress",
+"Languages": {
+"en-US": {
+"Text": "Bank Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"de-DE": {
+"Text": "Bank Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"es-ES": {
+"Text": "Bank Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"es-MX": {
+"Text": "Bank Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"fi-FI": {
+"Text": "Bank Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"fr-FR": {
+"Text": "Bank Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"it-IT": {
+"Text": "Bank Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"ja-JP": {
+"Text": "Bank Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"nb-NO": {
+"Text": "Bank Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"nl-NL": {
+"Text": "Bank Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"pl-PL": {
+"Text": "Bank Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"pt-BR": {
+"Text": "Bank Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"pt-PT": {
+"Text": "Bank Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"ru-RU": {
+"Text": "Bank Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"sv-SE": {
+"Text": "Bank Angle",
+"LocalizationStatus": "Translation Needed"
+},
+"zh-CN": {
+"Text": "Bank Angle",
+"LocalizationStatus": "Translation Needed"
+}
+}
+},
+"LANDING.BOUNCES":  {
+"UUID": "57c6372c-abbb-4944-a42d-72071c1de705",
+"LastModifiedBy": "hallidave",
+"LastModifiedDate": "2022-06-15 17:26:02",
+"LocalizationStatus": "Work in Progress",
+"Languages": {
+"en-US": {
+"Text": "Bounces",
+"LocalizationStatus": "Translation Needed"
+},
+"de-DE": {
+"Text": "Bounces",
+"LocalizationStatus": "Translation Needed"
+},
+"es-ES": {
+"Text": "Bounces",
+"LocalizationStatus": "Translation Needed"
+},
+"es-MX": {
+"Text": "Bounces",
+"LocalizationStatus": "Translation Needed"
+},
+"fi-FI": {
+"Text": "Bounces",
+"LocalizationStatus": "Translation Needed"
+},
+"fr-FR": {
+"Text": "Bounces",
+"LocalizationStatus": "Translation Needed"
+},
+"it-IT": {
+"Text": "Bounces",
+"LocalizationStatus": "Translation Needed"
+},
+"ja-JP": {
+"Text": "Bounces",
+"LocalizationStatus": "Translation Needed"
+},
+"nb-NO": {
+"Text": "Bounces",
+"LocalizationStatus": "Translation Needed"
+},
+"nl-NL": {
+"Text": "Bounces",
+"LocalizationStatus": "Translation Needed"
+},
+"pl-PL": {
+"Text": "Bounces",
+"LocalizationStatus": "Translation Needed"
+},
+"pt-BR": {
+"Text": "Bounces",
+"LocalizationStatus": "Translation Needed"
+},
+"pt-PT": {
+"Text": "Bounces",
+"LocalizationStatus": "Translation Needed"
+},
+"ru-RU": {
+"Text": "Bounces",
+"LocalizationStatus": "Translation Needed"
+},
+"sv-SE": {
+"Text": "Bounces",
+"LocalizationStatus": "Translation Needed"
+},
+"zh-CN": {
+"Text": "Bounces",
+"LocalizationStatus": "Translation Needed"
+}
+}
+},
+"LANDING.FPM":  {
+"UUID": "2a4dcd4e-4489-45d9-bb12-53fb48613339",
+"LastModifiedBy": "hallidave",
+"LastModifiedDate": "2022-06-15 17:26:13",
+"LocalizationStatus": "Work in Progress",
+"Languages": {
+"en-US": {
+"Text": "FPM",
+"LocalizationStatus": "Translation Needed"
+},
+"de-DE": {
+"Text": "FPM",
+"LocalizationStatus": "Translation Needed"
+},
+"es-ES": {
+"Text": "FPM",
+"LocalizationStatus": "Translation Needed"
+},
+"es-MX": {
+"Text": "FPM",
+"LocalizationStatus": "Translation Needed"
+},
+"fi-FI": {
+"Text": "FPM",
+"LocalizationStatus": "Translation Needed"
+},
+"fr-FR": {
+"Text": "FPM",
+"LocalizationStatus": "Translation Needed"
+},
+"it-IT": {
+"Text": "FPM",
+"LocalizationStatus": "Translation Needed"
+},
+"ja-JP": {
+"Text": "FPM",
+"LocalizationStatus": "Translation Needed"
+},
+"nb-NO": {
+"Text": "FPM",
+"LocalizationStatus": "Translation Needed"
+},
+"nl-NL": {
+"Text": "FPM",
+"LocalizationStatus": "Translation Needed"
+},
+"pl-PL": {
+"Text": "FPM",
+"LocalizationStatus": "Translation Needed"
+},
+"pt-BR": {
+"Text": "FPM",
+"LocalizationStatus": "Translation Needed"
+},
+"pt-PT": {
+"Text": "FPM",
+"LocalizationStatus": "Translation Needed"
+},
+"ru-RU": {
+"Text": "FPM",
+"LocalizationStatus": "Translation Needed"
+},
+"sv-SE": {
+"Text": "FPM",
+"LocalizationStatus": "Translation Needed"
+},
+"zh-CN": {
+"Text": "FPM",
+"LocalizationStatus": "Translation Needed"
+}
+}
+},
+"LANDING.TITLE":  {
+"UUID": "fd5c235f-b68d-4f29-9e4c-6cbabe30c2c4",
+"LastModifiedBy": "hallidave",
+"LastModifiedDate": "2022-06-26 20:46:42",
+"LocalizationStatus": "Work in Progress",
+"Languages": {
+"en-US": {
+"Text": "Landing Monitor",
+"LocalizationStatus": ""
+},
+"de-DE": {
+"Text": "Landing Monitor",
+"LocalizationStatus": ""
+},
+"es-ES": {
+"Text": "Landing Monitor",
+"LocalizationStatus": ""
+},
+"es-MX": {
+"Text": "Landing Monitor",
+"LocalizationStatus": ""
+},
+"fi-FI": {
+"Text": "Landing Monitor",
+"LocalizationStatus": ""
+},
+"fr-FR": {
+"Text": "Landing Monitor",
+"LocalizationStatus": ""
+},
+"it-IT": {
+"Text": "Landing Monitor",
+"LocalizationStatus": ""
+},
+"ja-JP": {
+"Text": "Landing Monitor",
+"LocalizationStatus": ""
+},
+"nb-NO": {
+"Text": "Landing Monitor",
+"LocalizationStatus": ""
+},
+"nl-NL": {
+"Text": "Landing Monitor",
+"LocalizationStatus": ""
+},
+"pl-PL": {
+"Text": "Landing Monitor",
+"LocalizationStatus": ""
+},
+"pt-BR": {
+"Text": "Landing Monitor",
+"LocalizationStatus": ""
+},
+"pt-PT": {
+"Text": "Landing Monitor",
+"LocalizationStatus": ""
+},
+"ru-RU": {
+"Text": "Landing Monitor",
+"LocalizationStatus": ""
+},
+"sv-SE": {
+"Text": "Landing Monitor",
+"LocalizationStatus": ""
+},
+"zh-CN": {
+"Text": "Landing Monitor",
+"LocalizationStatus": ""
+}
+}
+},
+"LANDING.HEIGHT_AGL":  {
+"UUID": "34f72e33-d453-45c7-bbe6-c601c2c2ed6f",
+"LastModifiedBy": "hallidave",
+"LastModifiedDate": "2022-07-05 17:07:10",
+"LocalizationStatus": "Work in Progress",
+"Languages": {
+"en-US": {
+"Text": "Height (AGL)",
+"LocalizationStatus": ""
+},
+"de-DE": {
+"Text": "Height (AGL)",
+"LocalizationStatus": ""
+},
+"es-ES": {
+"Text": "Height (AGL)",
+"LocalizationStatus": ""
+},
+"es-MX": {
+"Text": "Height (AGL)",
+"LocalizationStatus": ""
+},
+"fi-FI": {
+"Text": "Height (AGL)",
+"LocalizationStatus": ""
+},
+"fr-FR": {
+"Text": "Height (AGL)",
+"LocalizationStatus": ""
+},
+"it-IT": {
+"Text": "Height (AGL)",
+"LocalizationStatus": ""
+},
+"ja-JP": {
+"Text": "Height (AGL)",
+"LocalizationStatus": ""
+},
+"nb-NO": {
+"Text": "Height (AGL)",
+"LocalizationStatus": ""
+},
+"nl-NL": {
+"Text": "Height (AGL)",
+"LocalizationStatus": ""
+},
+"pl-PL": {
+"Text": "Height (AGL)",
+"LocalizationStatus": ""
+},
+"pt-BR": {
+"Text": "Height (AGL)",
+"LocalizationStatus": ""
+},
+"pt-PT": {
+"Text": "Height (AGL)",
+"LocalizationStatus": ""
+},
+"ru-RU": {
+"Text": "Height (AGL)",
+"LocalizationStatus": ""
+},
+"sv-SE": {
+"Text": "Height (AGL)",
+"LocalizationStatus": ""
+},
+"zh-CN": {
+"Text": "Height (AGL)",
+"LocalizationStatus": ""
+}
+}
+},
+"LANDING.UNIT_FEET":  {
+"UUID": "0e0d21fa-0900-4af6-b2dd-95a380c17d7f",
+"LastModifiedBy": "hallidave",
+"LastModifiedDate": "2022-07-05 17:11:47",
+"LocalizationStatus": "Work in Progress",
+"Languages": {
+"en-US": {
+"Text": "feet",
+"LocalizationStatus": ""
+},
+"de-DE": {
+"Text": "feet",
+"LocalizationStatus": ""
+},
+"es-ES": {
+"Text": "feet",
+"LocalizationStatus": ""
+},
+"es-MX": {
+"Text": "feet",
+"LocalizationStatus": ""
+},
+"fi-FI": {
+"Text": "feet",
+"LocalizationStatus": ""
+},
+"fr-FR": {
+"Text": "feet",
+"LocalizationStatus": ""
+},
+"it-IT": {
+"Text": "feet",
+"LocalizationStatus": ""
+},
+"ja-JP": {
+"Text": "feet",
+"LocalizationStatus": ""
+},
+"nb-NO": {
+"Text": "feet",
+"LocalizationStatus": ""
+},
+"nl-NL": {
+"Text": "feet",
+"LocalizationStatus": ""
+},
+"pl-PL": {
+"Text": "feet",
+"LocalizationStatus": ""
+},
+"pt-BR": {
+"Text": "feet",
+"LocalizationStatus": ""
+},
+"pt-PT": {
+"Text": "feet",
+"LocalizationStatus": ""
+},
+"ru-RU": {
+"Text": "feet",
+"LocalizationStatus": ""
+},
+"sv-SE": {
+"Text": "feet",
+"LocalizationStatus": ""
+},
+"zh-CN": {
+"Text": "feet",
+"LocalizationStatus": ""
+}
+}
+},
+"LANDING.GROUND_SPEED":  {
+"UUID": "f733fc98-8cfe-455a-9c39-c92a0e1e1923",
+"LastModifiedBy": "hallidave",
+"LastModifiedDate": "2022-07-05 17:13:47",
+"LocalizationStatus": "Work in Progress",
+"Languages": {
+"en-US": {
+"Text": "Ground Speed",
+"LocalizationStatus": ""
+},
+"de-DE": {
+"Text": "Ground Speed",
+"LocalizationStatus": ""
+},
+"es-ES": {
+"Text": "Ground Speed",
+"LocalizationStatus": ""
+},
+"es-MX": {
+"Text": "Ground Speed",
+"LocalizationStatus": ""
+},
+"fi-FI": {
+"Text": "Ground Speed",
+"LocalizationStatus": ""
+},
+"fr-FR": {
+"Text": "Ground Speed",
+"LocalizationStatus": ""
+},
+"it-IT": {
+"Text": "Ground Speed",
+"LocalizationStatus": ""
+},
+"ja-JP": {
+"Text": "Ground Speed",
+"LocalizationStatus": ""
+},
+"nb-NO": {
+"Text": "Ground Speed",
+"LocalizationStatus": ""
+},
+"nl-NL": {
+"Text": "Ground Speed",
+"LocalizationStatus": ""
+},
+"pl-PL": {
+"Text": "Ground Speed",
+"LocalizationStatus": ""
+},
+"pt-BR": {
+"Text": "Ground Speed",
+"LocalizationStatus": ""
+},
+"pt-PT": {
+"Text": "Ground Speed",
+"LocalizationStatus": ""
+},
+"ru-RU": {
+"Text": "Ground Speed",
+"LocalizationStatus": ""
+},
+"sv-SE": {
+"Text": "Ground Speed",
+"LocalizationStatus": ""
+},
+"zh-CN": {
+"Text": "Ground Speed",
+"LocalizationStatus": ""
+}
+}
+},
+"LANDING.UNIT_KNOTS":  {
+"UUID": "653f1ed4-d242-4007-bfeb-328c6237d967",
+"LastModifiedBy": "hallidave",
+"LastModifiedDate": "2022-07-05 17:14:21",
+"LocalizationStatus": "Work in Progress",
+"Languages": {
+"en-US": {
+"Text": "knots",
+"LocalizationStatus": ""
+},
+"de-DE": {
+"Text": "knots",
+"LocalizationStatus": ""
+},
+"es-ES": {
+"Text": "knots",
+"LocalizationStatus": ""
+},
+"es-MX": {
+"Text": "knots",
+"LocalizationStatus": ""
+},
+"fi-FI": {
+"Text": "knots",
+"LocalizationStatus": ""
+},
+"fr-FR": {
+"Text": "knots",
+"LocalizationStatus": ""
+},
+"it-IT": {
+"Text": "knots",
+"LocalizationStatus": ""
+},
+"ja-JP": {
+"Text": "knots",
+"LocalizationStatus": ""
+},
+"nb-NO": {
+"Text": "knots",
+"LocalizationStatus": ""
+},
+"nl-NL": {
+"Text": "knots",
+"LocalizationStatus": ""
+},
+"pl-PL": {
+"Text": "knots",
+"LocalizationStatus": ""
+},
+"pt-BR": {
+"Text": "knots",
+"LocalizationStatus": ""
+},
+"pt-PT": {
+"Text": "knots",
+"LocalizationStatus": ""
+},
+"ru-RU": {
+"Text": "knots",
+"LocalizationStatus": ""
+},
+"sv-SE": {
+"Text": "knots",
+"LocalizationStatus": ""
+},
+"zh-CN": {
+"Text": "knots",
+"LocalizationStatus": ""
+}
+}
+},
+"LANDING.FPA":  {
+"UUID": "43ff22d4-3a68-4098-b617-cb2a343933b1",
+"LastModifiedBy": "hallidave",
+"LastModifiedDate": "2022-07-05 17:15:08",
+"LocalizationStatus": "Work in Progress",
+"Languages": {
+"en-US": {
+"Text": "Flight Path Angle",
+"LocalizationStatus": ""
+},
+"de-DE": {
+"Text": "Flight Path Angle",
+"LocalizationStatus": ""
+},
+"es-ES": {
+"Text": "Flight Path Angle",
+"LocalizationStatus": ""
+},
+"es-MX": {
+"Text": "Flight Path Angle",
+"LocalizationStatus": ""
+},
+"fi-FI": {
+"Text": "Flight Path Angle",
+"LocalizationStatus": ""
+},
+"fr-FR": {
+"Text": "Flight Path Angle",
+"LocalizationStatus": ""
+},
+"it-IT": {
+"Text": "Flight Path Angle",
+"LocalizationStatus": ""
+},
+"ja-JP": {
+"Text": "Flight Path Angle",
+"LocalizationStatus": ""
+},
+"nb-NO": {
+"Text": "Flight Path Angle",
+"LocalizationStatus": ""
+},
+"nl-NL": {
+"Text": "Flight Path Angle",
+"LocalizationStatus": ""
+},
+"pl-PL": {
+"Text": "Flight Path Angle",
+"LocalizationStatus": ""
+},
+"pt-BR": {
+"Text": "Flight Path Angle",
+"LocalizationStatus": ""
+},
+"pt-PT": {
+"Text": "Flight Path Angle",
+"LocalizationStatus": ""
+},
+"ru-RU": {
+"Text": "Flight Path Angle",
+"LocalizationStatus": ""
+},
+"sv-SE": {
+"Text": "Flight Path Angle",
+"LocalizationStatus": ""
+},
+"zh-CN": {
+"Text": "Flight Path Angle",
+"LocalizationStatus": ""
+}
+}
+},
+"LANDING.WIND":  {
+"UUID": "39f85d2d-aa5a-479e-acd6-3d701f335f3c",
+"LastModifiedBy": "hallidave",
+"LastModifiedDate": "2022-07-05 17:15:36",
+"LocalizationStatus": "Work in Progress",
+"Languages": {
+"en-US": {
+"Text": "Wind",
+"LocalizationStatus": ""
+},
+"de-DE": {
+"Text": "Wind",
+"LocalizationStatus": ""
+},
+"es-ES": {
+"Text": "Wind",
+"LocalizationStatus": ""
+},
+"es-MX": {
+"Text": "Wind",
+"LocalizationStatus": ""
+},
+"fi-FI": {
+"Text": "Wind",
+"LocalizationStatus": ""
+},
+"fr-FR": {
+"Text": "Wind",
+"LocalizationStatus": ""
+},
+"it-IT": {
+"Text": "Wind",
+"LocalizationStatus": ""
+},
+"ja-JP": {
+"Text": "Wind",
+"LocalizationStatus": ""
+},
+"nb-NO": {
+"Text": "Wind",
+"LocalizationStatus": ""
+},
+"nl-NL": {
+"Text": "Wind",
+"LocalizationStatus": ""
+},
+"pl-PL": {
+"Text": "Wind",
+"LocalizationStatus": ""
+},
+"pt-BR": {
+"Text": "Wind",
+"LocalizationStatus": ""
+},
+"pt-PT": {
+"Text": "Wind",
+"LocalizationStatus": ""
+},
+"ru-RU": {
+"Text": "Wind",
+"LocalizationStatus": ""
+},
+"sv-SE": {
+"Text": "Wind",
+"LocalizationStatus": ""
+},
+"zh-CN": {
+"Text": "Wind",
+"LocalizationStatus": ""
+}
+}
+},
+"LANDING.FLYING":  {
+"UUID": "a472f574-37b9-47a9-8979-c78726b3b053",
+"LastModifiedBy": "hallidave",
+"LastModifiedDate": "2022-07-05 17:18:52",
+"LocalizationStatus": "Work in Progress",
+"Languages": {
+"en-US": {
+"Text": "Flying",
+"LocalizationStatus": ""
+},
+"de-DE": {
+"Text": "Flying",
+"LocalizationStatus": ""
+},
+"es-ES": {
+"Text": "Flying",
+"LocalizationStatus": ""
+},
+"es-MX": {
+"Text": "Flying",
+"LocalizationStatus": ""
+},
+"fi-FI": {
+"Text": "Flying",
+"LocalizationStatus": ""
+},
+"fr-FR": {
+"Text": "Flying",
+"LocalizationStatus": ""
+},
+"it-IT": {
+"Text": "Flying",
+"LocalizationStatus": ""
+},
+"ja-JP": {
+"Text": "Flying",
+"LocalizationStatus": ""
+},
+"nb-NO": {
+"Text": "Flying",
+"LocalizationStatus": ""
+},
+"nl-NL": {
+"Text": "Flying",
+"LocalizationStatus": ""
+},
+"pl-PL": {
+"Text": "Flying",
+"LocalizationStatus": ""
+},
+"pt-BR": {
+"Text": "Flying",
+"LocalizationStatus": ""
+},
+"pt-PT": {
+"Text": "Flying",
+"LocalizationStatus": ""
+},
+"ru-RU": {
+"Text": "Flying",
+"LocalizationStatus": ""
+},
+"sv-SE": {
+"Text": "Flying",
+"LocalizationStatus": ""
+},
+"zh-CN": {
+"Text": "Flying",
+"LocalizationStatus": ""
+}
+}
+},
+"LANDING.LANDING":  {
+"UUID": "621680a9-1417-4ff9-8444-372e8f56cf88",
+"LastModifiedBy": "hallidave",
+"LastModifiedDate": "2022-07-05 17:19:08",
+"LocalizationStatus": "Work in Progress",
+"Languages": {
+"en-US": {
+"Text": "Landing",
+"LocalizationStatus": ""
+},
+"de-DE": {
+"Text": "Landing",
+"LocalizationStatus": ""
+},
+"es-ES": {
+"Text": "Landing",
+"LocalizationStatus": ""
+},
+"es-MX": {
+"Text": "Landing",
+"LocalizationStatus": ""
+},
+"fi-FI": {
+"Text": "Landing",
+"LocalizationStatus": ""
+},
+"fr-FR": {
+"Text": "Landing",
+"LocalizationStatus": ""
+},
+"it-IT": {
+"Text": "Landing",
+"LocalizationStatus": ""
+},
+"ja-JP": {
+"Text": "Landing",
+"LocalizationStatus": ""
+},
+"nb-NO": {
+"Text": "Landing",
+"LocalizationStatus": ""
+},
+"nl-NL": {
+"Text": "Landing",
+"LocalizationStatus": ""
+},
+"pl-PL": {
+"Text": "Landing",
+"LocalizationStatus": ""
+},
+"pt-BR": {
+"Text": "Landing",
+"LocalizationStatus": ""
+},
+"pt-PT": {
+"Text": "Landing",
+"LocalizationStatus": ""
+},
+"ru-RU": {
+"Text": "Landing",
+"LocalizationStatus": ""
+},
+"sv-SE": {
+"Text": "Landing",
+"LocalizationStatus": ""
+},
+"zh-CN": {
+"Text": "Landing",
+"LocalizationStatus": ""
+}
+}
+},
+"LANDING.ON_GROUND":  {
+"UUID": "371f55d8-afbb-4326-9de6-4313d43d3cad",
+"LastModifiedBy": "hallidave",
+"LastModifiedDate": "2022-07-05 17:19:27",
+"LocalizationStatus": "Work in Progress",
+"Languages": {
+"en-US": {
+"Text": "On Ground",
+"LocalizationStatus": ""
+},
+"de-DE": {
+"Text": "On Ground",
+"LocalizationStatus": ""
+},
+"es-ES": {
+"Text": "On Ground",
+"LocalizationStatus": ""
+},
+"es-MX": {
+"Text": "On Ground",
+"LocalizationStatus": ""
+},
+"fi-FI": {
+"Text": "On Ground",
+"LocalizationStatus": ""
+},
+"fr-FR": {
+"Text": "On Ground",
+"LocalizationStatus": ""
+},
+"it-IT": {
+"Text": "On Ground",
+"LocalizationStatus": ""
+},
+"ja-JP": {
+"Text": "On Ground",
+"LocalizationStatus": ""
+},
+"nb-NO": {
+"Text": "On Ground",
+"LocalizationStatus": ""
+},
+"nl-NL": {
+"Text": "On Ground",
+"LocalizationStatus": ""
+},
+"pl-PL": {
+"Text": "On Ground",
+"LocalizationStatus": ""
+},
+"pt-BR": {
+"Text": "On Ground",
+"LocalizationStatus": ""
+},
+"pt-PT": {
+"Text": "On Ground",
+"LocalizationStatus": ""
+},
+"ru-RU": {
+"Text": "On Ground",
+"LocalizationStatus": ""
+},
+"sv-SE": {
+"Text": "On Ground",
+"LocalizationStatus": ""
+},
+"zh-CN": {
+"Text": "On Ground",
+"LocalizationStatus": ""
+}
+}
+}
+}
+}
+}
+

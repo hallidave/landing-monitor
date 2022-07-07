@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<SimBase.Document Type="InGamePanels" version="1,0">
+    <Filename>InGamePanel_HallidaveLandingPanel.spb</Filename>
+    <InGamePanels.InGamePanelDefinition id="HALLIDAVE_LANDING_PANEL" Name="@hallidave-tool-landing,TT:LANDING.TITLE" url="html_ui/inGamePanels/HallidaveLandingPanel/LandingMonitor.html" resizeDirections="Both" minWidth="35" minHeight="25" defaultWidth="35" defaultHeight="25" defaultTop="30" defaultLeft="10" icon="ICON_TOOLBAR_HALLIDAVE_LANDING" buttonVisible="true" />
+</SimBase.Document>

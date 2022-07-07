@@ -1,0 +1,28 @@
+#ApproachDisplay {
+    width: 100%;
+    height: 100%;
+}
+
+#ApproachDisplay table {
+    width: 100%;
+}
+
+#ApproachDisplay td {
+    padding: calc(var(--screenHeight) * (3px / 1080)) 0;
+    white-space: nowrap;
+}
+
+#ApproachDisplay td.name {
+    width: 50%;
+}
+
+#ApproachDisplay td.value {
+    width: 50%;
+    text-align: right;
+}
+
+#ApproachDisplay svg.icon {
+    height: var(--fontSizeParagraph);
+    transform: translate(0, calc(var(--screenHeight) * (3px / 1080)));
+    fill: white;
+}

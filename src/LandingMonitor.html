@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/SCSS/common.css" />
+    <link rel="stylesheet" href="LandingMonitor.css" />
+
+    <script type="text/javascript" src="/JS/coherent.js"></script>
+    <script type="text/javascript" src="/JS/common.js"></script>
+    <script type="text/javascript" src="/JS/Types.js"></script>
+    <script type="text/javascript" src="/JS/simvar.js"></script>
+    <script type="text/javascript" src="/JS/Avionics.js"></script>
+    <script type="text/javascript" src="/JS/SimPlane.js"></script>
+    <script type="text/javascript" src="/JS/dataStorage.js"></script>
+    <script type="text/javascript" src="/JS/buttons.js"></script>
+    <script type="text/javascript" src="/JS/Services/ToolBarPanels.js"></script>
+    <script type="text/javascript" src="/Pages/VCockpit/Instruments/Shared/BaseInstrument.js"></script>
+
+    <link rel="import" href="/templates/ingameUi/ingameUi.html" />
+    <link rel="import" href="/templates/ingameUiHeader/ingameUiHeader.html" />
+    <link rel="import" href="/templates/NewPushButton/NewPushButton.html" />
+
+    <script type="text/javascript" src="LandingMonitor.js"></script>
+</head>
+
+<body class="border-box">
+    <hallidave-landing-panel>
+        <ingame-ui id="LandingPanel" panel-id="HALLIDAVE_LANDING_PANEL" class="ingameUiFrame panelInvisible" title="Landing" content-fit="true" min-width="35" min-height="25">
+            <div id="LandingContent">
+            </div>
+        </ingame-ui>
+    </hallidave-landing-panel>
+</body>
+</html>

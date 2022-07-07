@@ -1,0 +1,11 @@
+ingame-ui#LandingPanel {
+    display:flex;
+    flex-direction:column;
+}
+
+#LandingContent {
+    background-color: var(--backgroundColorPanel);
+    font-weight: bold;
+    font-size: var(--fontSizeParagraph);
+    text-transform: uppercase;
+}

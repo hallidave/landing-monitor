@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Version="2" Name="LandingTool" FolderName="Packages" MetadataFolderName="PackagesMetadata">
+	<OutputDirectory>.</OutputDirectory>
+	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
+	<Packages>
+		<Package>PackageDefinitions\hallidave-tool-landing.xml</Package>
+	</Packages>
+</Project>
+

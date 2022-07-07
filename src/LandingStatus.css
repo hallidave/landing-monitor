@@ -1,0 +1,43 @@
+#LandingStatus {
+    padding-top: calc(var(--screenHeight) * (5px / 1080));
+    padding-bottom: 0;
+    padding-left: calc(var(--screenHeight) * (5px / 1080));
+    padding-right: calc(var(--screenHeight) * (5px / 1080));
+    margin-top: calc(var(--screenHeight) * (5px / 1080));
+}
+
+#Status {
+    text-align: center;
+    border: calc(var(--screenHeight) * (3px / 1080)) solid white;
+    padding: calc(var(--screenHeight) * (5px / 1080));
+}
+
+@keyframes landing {
+    from {
+        background-color: white;
+    }
+
+    to {
+        background-color: var(--backgroundColorPanel);
+    }
+}
+
+@keyframes on-ground {
+    from {
+        background-color: white;
+    }
+
+    to {
+        background-color: var(--backgroundColorPanel);
+    }
+}
+
+@keyframes flying {
+    from {
+        background-color: white;
+    }
+
+    to {
+        background-color: var(--backgroundColorPanel);
+    }
+}

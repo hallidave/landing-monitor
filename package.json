@@ -1,0 +1,31 @@
+{
+  "name": "daves-landing-monitor",
+  "version": "0.5.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx rollup -c && npm run build:copy",
+    "build:copy": "copyfiles -e build/tsconfig.tsbuildinfo -f src/LandingMonitor.html -f src/panel.loc -f build/* project/PackageSources/html_ui/InGamePanels/HallidaveLandingPanel",
+    "package": "npm run build && \"C:\\MSFS SDK\\Tools\\bin\\fspackagetool.exe\" -nopause .\\project\\LandingMonitorProject.xml",
+    "package:update": "npm run build && copyfiles -f project/PackageSources/html_ui/InGamePanels/HallidaveLandingPanel/* project/Packages/hallidave-tool-landing/html_ui/InGamePanels/HallidaveLandingPanel",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dave Halliday",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/node": "^18.0.0",
+    "copyfiles": "^2.4.1",
+    "msfstypes": "file:../msfs-avionics-mirror/src/msfstypes",
+    "rollup": "^2.75.7",
+    "rollup-plugin-import-css": "^3.0.3",
+    "ts-node": "^10.8.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "msfssdk": "file:../msfs-avionics-mirror/src/sdk/build"
+  }
+}
