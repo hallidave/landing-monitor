@@ -1,7 +1,9 @@
-import { EventBus, PublishPacer } from "msfssdk/data";
+import { EventBus, PublishPacer, SimVarValueType } from "msfssdk/data";
 import { BasePublisher } from "msfssdk/instruments";
 
 export interface ApproachEvents {
+    // Vertical speed in feet per minute
+    "vertical_speed": number;
     // Height above ground level in feet
     "height_agl": number;
     // Ground speed in knots
@@ -23,6 +25,7 @@ export class ApproachPublisher extends BasePublisher<ApproachEvents> {
     public onUpdate(): void {
         super.onUpdate();
 
+        this.publish("vertical_speed", SimVar.GetSimVarValue("VELOCITY WORLD Y", SimVarValueType.FPM));
         this.publish("height_agl", Simplane.getAltitudeAboveGround());
         const groundSpeed = Simplane.getGroundSpeed();
         this.publish("ground_speed", groundSpeed);

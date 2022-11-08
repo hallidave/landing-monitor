@@ -10,19 +10,30 @@ interface ApproachProps extends ComponentProps {
 
 export class ApproachDisplay extends DisplayComponent<ApproachProps> {
 
+    private verticalSpeed = Subject.create<number>(0);
+    private verticalDirection = Subject.create<"up"|"down">("up");
     private heightAgl = Subject.create<number>(0);
     private groundSpeed = Subject.create<number>(0);
     private flightPathAngle = Subject.create<number>(0);
     private windDirection = Subject.create<number>(0);
     private windSpeed = Subject.create<number>(0);
 
-    private readonly arrowRef = FSComponent.createRef<SVGElement>();
+    private readonly windArrowRef = FSComponent.createRef<SVGElement>();
+    private readonly verticalArrowRef = FSComponent.createRef<SVGElement>();
 
     constructor(props: ApproachProps) {
         super(props);
 
         const appEvents = props.bus.getSubscriber<ApproachEvents>();
 
+        appEvents.on("vertical_speed").withPrecision(0).handle((verticalSpeed) => {
+            this.verticalSpeed.set(Math.abs(Math.round(verticalSpeed/10)*10));
+            if (verticalSpeed >= 0) {
+                this.verticalDirection.set("up");
+            } else {
+                this.verticalDirection.set("down");
+            }
+        });
         appEvents.on("height_agl").withPrecision(0).handle((heightAgl) => {
             this.heightAgl.set(heightAgl);
         });
@@ -45,6 +56,15 @@ export class ApproachDisplay extends DisplayComponent<ApproachProps> {
             <div id="ApproachDisplay">
                 <table>
                     <tr>
+                        <td class="name">{Translate.text("VERTICAL_SPEED")}</td>
+                        <td class="value">
+                            <svg viewBox="0 0 24 24" class="icon">
+                                <path ref={this.verticalArrowRef} d="M12 22.575 4.15 14.7 6.35 12.475 10.425 16.575V1.2H13.575V16.575L17.65 12.5L19.875 14.7Z" />
+                            </svg>{this.verticalSpeed}
+                        </td>
+                        <td class="units">&nbsp;{Translate.text("FPM")}</td>
+                    </tr>
+                    <tr>
                         <td class="name">{Translate.text("HEIGHT_AGL")}</td>
                         <td class="value">{this.heightAgl}</td>
                         <td class="units">&nbsp;{Translate.text("UNIT_FEET")}</td>
@@ -62,7 +82,7 @@ export class ApproachDisplay extends DisplayComponent<ApproachProps> {
                         <td class="name">{Translate.text("WIND")}</td>
                         <td class="value">
                             <svg viewBox="0 0 24 24" class="icon">
-                                <path ref={this.arrowRef} d="M12 22.575 4.15 14.7 6.35 12.475 10.425 16.575V1.2H13.575V16.575L17.65 12.5L19.875 14.7Z" />
+                                <path ref={this.windArrowRef} d="M12 22.575 4.15 14.7 6.35 12.475 10.425 16.575V1.2H13.575V16.575L17.65 12.5L19.875 14.7Z" />
                             </svg>{this.windSpeed}
                         </td>
                         <td class="units">&nbsp;{Translate.text("UNIT_KNOTS")}</td>
@@ -74,8 +94,15 @@ export class ApproachDisplay extends DisplayComponent<ApproachProps> {
 
     public onAfterRender(node: VNode): void {
         super.onAfterRender(node);
+        this.verticalDirection.sub(verticalDirection => {
+            if (verticalDirection === "up") {
+                this.verticalArrowRef.instance.setAttribute("transform", "rotate(180, 12, 12)");
+            } else {
+                this.verticalArrowRef.instance.setAttribute("transform", "rotate(0, 12, 12)");
+            }
+        });
         this.windDirection.sub(windDirection => {
-            this.arrowRef.instance.setAttribute("transform", "rotate(" + String(windDirection) + ", 12, 12)");
+            this.windArrowRef.instance.setAttribute("transform", "rotate(" + String(windDirection) + ", 12, 12)");
         });
     }
 }
