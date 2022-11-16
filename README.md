@@ -14,7 +14,7 @@ This project is based on the [MSFS Avionics Framework](https://microsoft.github.
 
 You will need Node, npm, and git installed before building. Full details on setting up your environment are available from the MSFS Avionics Framework site.
 
-You also need to install the [MSFS SDK](https://docs.flightsimulator.com/html/Introduction/SDK_Overview.htm). The build for the Landing Monitor assumes that you have it installed in the `C:\MSFS SDK` directory.
+You also need to install the [MSFS SDK](https://docs.flightsimulator.com/html/Introduction/SDK_Overview.htm). The build for the Landing Monitor looks for the SDK directory identified by the `MSFS_SDK` environment variable. This variable should be set by the SDK installer (default `C:\MSFS SDK`).
 
 Once everything is installed, execute the follow commands:
 
@@ -29,7 +29,11 @@ npm run package
 
 I'm open to feature requests and code contributions. Please file an issue for bugs, features, or code ideas.
 
-I have added hooks to support localisation (see [panel.loc](/src/panel.loc)). If you are able to provide translations for one of the supported languages, please submit a pull request.
+### Localization
+
+I have added support for localization. If you are able to provide translations for one of the supported languages, you can use the MSFS Localization Manager in the SDK to update the [panel.loc](/project/PackageSources/Localization/panel.loc) file.
+
+You can find the MSFS Localization Manager project file `LandingMonitorProject.locProj` in the `project` folder. Consult the [SDK documentation](https://docs.flightsimulator.com/flighting/html/Additional_Information/Tools/MSFS_Localization_Manager.htm) for detailed instructions on how to load the project and use the tool.
 
 ## License
 

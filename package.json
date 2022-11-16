@@ -6,11 +6,12 @@
   "type": "module",
   "scripts": {
     "build": "npx rollup -c",
-    "postbuild": "copyfiles -e build/tsconfig.tsbuildinfo -f src/LandingMonitor.html -f src/panel.loc -f build/* project/PackageSources/html_ui/InGamePanels/HallidaveLandingPanel",
-    "package": "npm run build && \"C:\\MSFS SDK\\Tools\\bin\\fspackagetool.exe\" -nopause .\\project\\LandingMonitorProject.xml",
+    "postbuild": "copyfiles -e build/tsconfig.tsbuildinfo -f src/LandingMonitor.html -f build/* project/PackageSources/html_ui/InGamePanels/HallidaveLandingPanel",
+    "package": "npm run build && \"%MSFS_SDK%\\Tools\\bin\\fspackagetool.exe\" -nopause .\\project\\LandingMonitorProject.xml",
     "package:update": "npm run build && copyfiles -f project/PackageSources/html_ui/InGamePanels/HallidaveLandingPanel/* project/Packages/hallidave-tool-landing/html_ui/InGamePanels/HallidaveLandingPanel",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "version": "node scripts/copyversion.js && git add project/PackageDefinitions/hallidave-tool-landing.xml"
+    "version": "node scripts/copyversion.js && git add project/PackageDefinitions/hallidave-tool-landing.xml",
+    "clean": "rmdir /s /q build project\\Packages project\\_PackageInt project\\PackageSources\\html_ui\\InGamePanels"
   },
   "keywords": [],
   "author": "Dave Halliday",

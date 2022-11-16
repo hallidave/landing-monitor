@@ -19,6 +19,14 @@
 			<AssetDir>PackageDefinitions\hallidave-tool-landing\ContentInfo\</AssetDir>
 			<OutputDir>ContentInfo\hallidave-tool-landing\</OutputDir>
 		</AssetGroup>
+		<AssetGroup Name="LandingLocalization">
+			<Type>Localization</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Localization\</AssetDir>
+			<OutputDir>\</OutputDir>
+		</AssetGroup>
 		<AssetGroup Name="LandingPanel">
 			<Type>SPB</Type>
 			<Flags>

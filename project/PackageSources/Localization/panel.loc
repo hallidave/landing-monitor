@@ -1,0 +1,1498 @@
+{
+  "LocalisationFile": {
+    "Version": 2,
+    "UUID": "b1109bea-31bb-406a-bebc-db38b48935d7",
+    "Languages": [
+      "en-US",
+      "de-DE",
+      "es-ES",
+      "fi-FI",
+      "fr-FR",
+      "it-IT",
+      "es-MX",
+      "ja-JP",
+      "nb-NO",
+      "nl-NL",
+      "pl-PL",
+      "pt-BR",
+      "pt-PT",
+      "ru-RU",
+      "sv-SE",
+      "zh-CN",
+      "en-GB",
+      "en-AU"
+    ],
+    "Strings": {
+      "LANDING.BANK_ANGLE": {
+        "UUID": "61ab2235-43c2-47bb-ae34-4cac15470fef",
+        "LastModifiedBy": "davem",
+        "LastModifiedDate": "2022-11-16 13:22:14",
+        "LocalizationStatus": "Active",
+        "Languages": {
+          "en-US": {
+            "Text": "Bank Angle",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:07:31"
+          },
+          "de-DE": {
+            "Text": "Bank Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:24"
+          },
+          "es-ES": {
+            "Text": "Bank Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:32"
+          },
+          "fi-FI": {
+            "Text": "Bank Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:04"
+          },
+          "fr-FR": {
+            "Text": "Bank Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:12"
+          },
+          "it-IT": {
+            "Text": "Bank Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:22"
+          },
+          "es-MX": {
+            "Text": "Bank Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:45"
+          },
+          "ja-JP": {
+            "Text": "Bank Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:52"
+          },
+          "nb-NO": {
+            "Text": "Bank Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:56"
+          },
+          "nl-NL": {
+            "Text": "Bank Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:00"
+          },
+          "pl-PL": {
+            "Text": "Bank Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:06"
+          },
+          "pt-BR": {
+            "Text": "Bank Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:13"
+          },
+          "pt-PT": {
+            "Text": "Bank Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:19"
+          },
+          "ru-RU": {
+            "Text": "Bank Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:28"
+          },
+          "sv-SE": {
+            "Text": "Bank Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:40"
+          },
+          "zh-CN": {
+            "Text": "Bank Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:56"
+          },
+          "en-GB": {
+            "Text": "Bank Angle",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:22:14"
+          },
+          "en-AU": {
+            "Text": "Bank Angle",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:20:09"
+          }
+        }
+      },
+      "LANDING.BOUNCES": {
+        "UUID": "d3be0cdc-ae66-4a50-bf2b-5f97c0d98d6e",
+        "LastModifiedBy": "davem",
+        "LastModifiedDate": "2022-11-16 13:22:14",
+        "LocalizationStatus": "Active",
+        "Languages": {
+          "en-US": {
+            "Text": "Bounces",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:07:31"
+          },
+          "de-DE": {
+            "Text": "Bounces",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:24"
+          },
+          "es-ES": {
+            "Text": "Bounces",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:32"
+          },
+          "fi-FI": {
+            "Text": "Bounces",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:04"
+          },
+          "fr-FR": {
+            "Text": "Bounces",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:12"
+          },
+          "it-IT": {
+            "Text": "Bounces",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:22"
+          },
+          "es-MX": {
+            "Text": "Bounces",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:45"
+          },
+          "ja-JP": {
+            "Text": "Bounces",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:52"
+          },
+          "nb-NO": {
+            "Text": "Bounces",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:56"
+          },
+          "nl-NL": {
+            "Text": "Bounces",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:00"
+          },
+          "pl-PL": {
+            "Text": "Bounces",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:06"
+          },
+          "pt-BR": {
+            "Text": "Bounces",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:13"
+          },
+          "pt-PT": {
+            "Text": "Bounces",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:19"
+          },
+          "ru-RU": {
+            "Text": "Bounces",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:28"
+          },
+          "sv-SE": {
+            "Text": "Bounces",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:40"
+          },
+          "zh-CN": {
+            "Text": "Bounces",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:56"
+          },
+          "en-GB": {
+            "Text": "Bounces",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:22:14"
+          },
+          "en-AU": {
+            "Text": "Bounces",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:20:09"
+          }
+        }
+      },
+      "LANDING.FLYING": {
+        "UUID": "60fa8829-d4de-48d1-bd1a-88995323a72e",
+        "LastModifiedBy": "davem",
+        "LastModifiedDate": "2022-11-16 13:22:14",
+        "LocalizationStatus": "Active",
+        "Languages": {
+          "en-US": {
+            "Text": "Flying",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:07:31"
+          },
+          "de-DE": {
+            "Text": "Flying",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:25"
+          },
+          "es-ES": {
+            "Text": "Flying",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:32"
+          },
+          "fi-FI": {
+            "Text": "Flying",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:04"
+          },
+          "fr-FR": {
+            "Text": "Flying",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:12"
+          },
+          "it-IT": {
+            "Text": "Flying",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:22"
+          },
+          "es-MX": {
+            "Text": "Flying",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:45"
+          },
+          "ja-JP": {
+            "Text": "Flying",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:52"
+          },
+          "nb-NO": {
+            "Text": "Flying",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:56"
+          },
+          "nl-NL": {
+            "Text": "Flying",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:00"
+          },
+          "pl-PL": {
+            "Text": "Flying",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:06"
+          },
+          "pt-BR": {
+            "Text": "Flying",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:13"
+          },
+          "pt-PT": {
+            "Text": "Flying",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:19"
+          },
+          "ru-RU": {
+            "Text": "Flying",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:28"
+          },
+          "sv-SE": {
+            "Text": "Flying",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:40"
+          },
+          "zh-CN": {
+            "Text": "Flying",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:56"
+          },
+          "en-GB": {
+            "Text": "Flying",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:22:14"
+          },
+          "en-AU": {
+            "Text": "Flying",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:20:09"
+          }
+        }
+      },
+      "LANDING.FPA": {
+        "UUID": "ee16c73e-ea99-44fa-9a2c-85e3b0759def",
+        "LastModifiedBy": "davem",
+        "LastModifiedDate": "2022-11-16 13:22:14",
+        "LocalizationStatus": "Active",
+        "Languages": {
+          "en-US": {
+            "Text": "Flight Path Angle",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:07:31"
+          },
+          "de-DE": {
+            "Text": "Flight Path Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:25"
+          },
+          "es-ES": {
+            "Text": "Flight Path Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:32"
+          },
+          "fi-FI": {
+            "Text": "Flight Path Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:04"
+          },
+          "fr-FR": {
+            "Text": "Flight Path Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:12"
+          },
+          "it-IT": {
+            "Text": "Flight Path Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:22"
+          },
+          "es-MX": {
+            "Text": "Flight Path Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:45"
+          },
+          "ja-JP": {
+            "Text": "Flight Path Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:52"
+          },
+          "nb-NO": {
+            "Text": "Flight Path Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:56"
+          },
+          "nl-NL": {
+            "Text": "Flight Path Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:00"
+          },
+          "pl-PL": {
+            "Text": "Flight Path Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:06"
+          },
+          "pt-BR": {
+            "Text": "Flight Path Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:13"
+          },
+          "pt-PT": {
+            "Text": "Flight Path Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:19"
+          },
+          "ru-RU": {
+            "Text": "Flight Path Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:28"
+          },
+          "sv-SE": {
+            "Text": "Flight Path Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:40"
+          },
+          "zh-CN": {
+            "Text": "Flight Path Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:56"
+          },
+          "en-GB": {
+            "Text": "Flight Path Angle",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:22:14"
+          },
+          "en-AU": {
+            "Text": "Flight Path Angle",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:20:09"
+          }
+        }
+      },
+      "LANDING.FPM": {
+        "UUID": "def72e7e-606a-4988-a4dc-994a24287689",
+        "LastModifiedBy": "davem",
+        "LastModifiedDate": "2022-11-16 13:22:14",
+        "LocalizationStatus": "Active",
+        "Languages": {
+          "en-US": {
+            "Text": "FPM",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:07:31"
+          },
+          "de-DE": {
+            "Text": "FPM",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:25"
+          },
+          "es-ES": {
+            "Text": "FPM",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:32"
+          },
+          "fi-FI": {
+            "Text": "FPM",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:04"
+          },
+          "fr-FR": {
+            "Text": "FPM",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:12"
+          },
+          "it-IT": {
+            "Text": "FPM",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:22"
+          },
+          "es-MX": {
+            "Text": "FPM",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:45"
+          },
+          "ja-JP": {
+            "Text": "FPM",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:52"
+          },
+          "nb-NO": {
+            "Text": "FPM",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:56"
+          },
+          "nl-NL": {
+            "Text": "FPM",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:00"
+          },
+          "pl-PL": {
+            "Text": "FPM",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:06"
+          },
+          "pt-BR": {
+            "Text": "FPM",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:13"
+          },
+          "pt-PT": {
+            "Text": "FPM",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:19"
+          },
+          "ru-RU": {
+            "Text": "FPM",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:28"
+          },
+          "sv-SE": {
+            "Text": "FPM",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:40"
+          },
+          "zh-CN": {
+            "Text": "FPM",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:56"
+          },
+          "en-GB": {
+            "Text": "FPM",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:22:14"
+          },
+          "en-AU": {
+            "Text": "FPM",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:20:09"
+          }
+        }
+      },
+      "LANDING.GROUND_SPEED": {
+        "UUID": "a7861af8-613a-4eb6-9e45-050392b56cf7",
+        "LastModifiedBy": "davem",
+        "LastModifiedDate": "2022-11-16 13:22:14",
+        "LocalizationStatus": "Active",
+        "Languages": {
+          "en-US": {
+            "Text": "Ground Speed",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:07:31"
+          },
+          "de-DE": {
+            "Text": "Ground Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:25"
+          },
+          "es-ES": {
+            "Text": "Ground Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:32"
+          },
+          "fi-FI": {
+            "Text": "Ground Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:04"
+          },
+          "fr-FR": {
+            "Text": "Ground Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:12"
+          },
+          "it-IT": {
+            "Text": "Ground Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:22"
+          },
+          "es-MX": {
+            "Text": "Ground Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:45"
+          },
+          "ja-JP": {
+            "Text": "Ground Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:52"
+          },
+          "nb-NO": {
+            "Text": "Ground Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:56"
+          },
+          "nl-NL": {
+            "Text": "Ground Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:00"
+          },
+          "pl-PL": {
+            "Text": "Ground Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:06"
+          },
+          "pt-BR": {
+            "Text": "Ground Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:13"
+          },
+          "pt-PT": {
+            "Text": "Ground Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:19"
+          },
+          "ru-RU": {
+            "Text": "Ground Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:28"
+          },
+          "sv-SE": {
+            "Text": "Ground Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:40"
+          },
+          "zh-CN": {
+            "Text": "Ground Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:56"
+          },
+          "en-GB": {
+            "Text": "Ground Speed",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:22:14"
+          },
+          "en-AU": {
+            "Text": "Ground Speed",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:20:09"
+          }
+        }
+      },
+      "LANDING.HEIGHT_AGL": {
+        "UUID": "cde541bb-1274-413c-9381-cb82103d8dcf",
+        "LastModifiedBy": "davem",
+        "LastModifiedDate": "2022-11-16 13:22:14",
+        "LocalizationStatus": "Active",
+        "Languages": {
+          "en-US": {
+            "Text": "Height (AGL)",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:07:31"
+          },
+          "de-DE": {
+            "Text": "Height (AGL)",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:25"
+          },
+          "es-ES": {
+            "Text": "Height (AGL)",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:32"
+          },
+          "fi-FI": {
+            "Text": "Height (AGL)",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:04"
+          },
+          "fr-FR": {
+            "Text": "Height (AGL)",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:12"
+          },
+          "it-IT": {
+            "Text": "Height (AGL)",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:22"
+          },
+          "es-MX": {
+            "Text": "Height (AGL)",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:45"
+          },
+          "ja-JP": {
+            "Text": "Height (AGL)",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:52"
+          },
+          "nb-NO": {
+            "Text": "Height (AGL)",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:56"
+          },
+          "nl-NL": {
+            "Text": "Height (AGL)",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:00"
+          },
+          "pl-PL": {
+            "Text": "Height (AGL)",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:06"
+          },
+          "pt-BR": {
+            "Text": "Height (AGL)",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:13"
+          },
+          "pt-PT": {
+            "Text": "Height (AGL)",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:19"
+          },
+          "ru-RU": {
+            "Text": "Height (AGL)",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:28"
+          },
+          "sv-SE": {
+            "Text": "Height (AGL)",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:40"
+          },
+          "zh-CN": {
+            "Text": "Height (AGL)",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:56"
+          },
+          "en-GB": {
+            "Text": "Height (AGL)",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:22:14"
+          },
+          "en-AU": {
+            "Text": "Height (AGL)",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:20:09"
+          }
+        }
+      },
+      "LANDING.LANDING": {
+        "UUID": "c487dadc-06b8-4ef7-b285-014502410733",
+        "LastModifiedBy": "davem",
+        "LastModifiedDate": "2022-11-16 13:22:14",
+        "LocalizationStatus": "Active",
+        "Languages": {
+          "en-US": {
+            "Text": "Landing",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:07:31"
+          },
+          "de-DE": {
+            "Text": "Landing",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:25"
+          },
+          "es-ES": {
+            "Text": "Landing",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:32"
+          },
+          "fi-FI": {
+            "Text": "Landing",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:04"
+          },
+          "fr-FR": {
+            "Text": "Landing",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:12"
+          },
+          "it-IT": {
+            "Text": "Landing",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:22"
+          },
+          "es-MX": {
+            "Text": "Landing",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:45"
+          },
+          "ja-JP": {
+            "Text": "Landing",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:52"
+          },
+          "nb-NO": {
+            "Text": "Landing",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:56"
+          },
+          "nl-NL": {
+            "Text": "Landing",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:00"
+          },
+          "pl-PL": {
+            "Text": "Landing",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:06"
+          },
+          "pt-BR": {
+            "Text": "Landing",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:13"
+          },
+          "pt-PT": {
+            "Text": "Landing",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:19"
+          },
+          "ru-RU": {
+            "Text": "Landing",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:28"
+          },
+          "sv-SE": {
+            "Text": "Landing",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:40"
+          },
+          "zh-CN": {
+            "Text": "Landing",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:56"
+          },
+          "en-GB": {
+            "Text": "Landing",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:22:14"
+          },
+          "en-AU": {
+            "Text": "Landing",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:20:09"
+          }
+        }
+      },
+      "LANDING.ON_GROUND": {
+        "UUID": "e2ea4607-65b3-41a7-b4f9-3760de3c3f78",
+        "LastModifiedBy": "davem",
+        "LastModifiedDate": "2022-11-16 13:22:14",
+        "LocalizationStatus": "Active",
+        "Languages": {
+          "en-US": {
+            "Text": "On Ground",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:07:31"
+          },
+          "de-DE": {
+            "Text": "On Ground",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:25"
+          },
+          "es-ES": {
+            "Text": "On Ground",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:32"
+          },
+          "fi-FI": {
+            "Text": "On Ground",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:04"
+          },
+          "fr-FR": {
+            "Text": "On Ground",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:12"
+          },
+          "it-IT": {
+            "Text": "On Ground",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:22"
+          },
+          "es-MX": {
+            "Text": "On Ground",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:45"
+          },
+          "ja-JP": {
+            "Text": "On Ground",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:52"
+          },
+          "nb-NO": {
+            "Text": "On Ground",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:56"
+          },
+          "nl-NL": {
+            "Text": "On Ground",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:00"
+          },
+          "pl-PL": {
+            "Text": "On Ground",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:06"
+          },
+          "pt-BR": {
+            "Text": "On Ground",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:13"
+          },
+          "pt-PT": {
+            "Text": "On Ground",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:19"
+          },
+          "ru-RU": {
+            "Text": "On Ground",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:28"
+          },
+          "sv-SE": {
+            "Text": "On Ground",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:40"
+          },
+          "zh-CN": {
+            "Text": "On Ground",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:56"
+          },
+          "en-GB": {
+            "Text": "On Ground",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:22:14"
+          },
+          "en-AU": {
+            "Text": "On Ground",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:20:09"
+          }
+        }
+      },
+      "LANDING.PITCH_ANGLE": {
+        "UUID": "1b96255a-0943-4a3a-97c5-a4288ae62310",
+        "LastModifiedBy": "davem",
+        "LastModifiedDate": "2022-11-16 13:22:14",
+        "LocalizationStatus": "Active",
+        "Languages": {
+          "en-US": {
+            "Text": "Pitch Angle",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:07:31"
+          },
+          "de-DE": {
+            "Text": "Pitch Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:24"
+          },
+          "es-ES": {
+            "Text": "Pitch Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:32"
+          },
+          "fi-FI": {
+            "Text": "Pitch Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:04"
+          },
+          "fr-FR": {
+            "Text": "Pitch Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:12"
+          },
+          "it-IT": {
+            "Text": "Pitch Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:22"
+          },
+          "es-MX": {
+            "Text": "Pitch Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:45"
+          },
+          "ja-JP": {
+            "Text": "Pitch Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:52"
+          },
+          "nb-NO": {
+            "Text": "Pitch Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:56"
+          },
+          "nl-NL": {
+            "Text": "Pitch Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:00"
+          },
+          "pl-PL": {
+            "Text": "Pitch Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:06"
+          },
+          "pt-BR": {
+            "Text": "Pitch Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:13"
+          },
+          "pt-PT": {
+            "Text": "Pitch Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:19"
+          },
+          "ru-RU": {
+            "Text": "Pitch Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:28"
+          },
+          "sv-SE": {
+            "Text": "Pitch Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:40"
+          },
+          "zh-CN": {
+            "Text": "Pitch Angle",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:56"
+          },
+          "en-GB": {
+            "Text": "Pitch Angle",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:22:14"
+          },
+          "en-AU": {
+            "Text": "Pitch Angle",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:20:09"
+          }
+        }
+      },
+      "LANDING.TITLE": {
+        "UUID": "8eaea5a8-6794-4007-b633-8f30bfec16f3",
+        "LastModifiedBy": "davem",
+        "LastModifiedDate": "2022-11-16 13:22:14",
+        "LocalizationStatus": "Active",
+        "Languages": {
+          "en-US": {
+            "Text": "Landing Monitor",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:07:31"
+          },
+          "de-DE": {
+            "Text": "Landing Monitor",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:24"
+          },
+          "es-ES": {
+            "Text": "Landing Monitor",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:32"
+          },
+          "fi-FI": {
+            "Text": "Landing Monitor",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:04"
+          },
+          "fr-FR": {
+            "Text": "Landing Monitor",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:12"
+          },
+          "it-IT": {
+            "Text": "Landing Monitor",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:22"
+          },
+          "es-MX": {
+            "Text": "Landing Monitor",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:45"
+          },
+          "ja-JP": {
+            "Text": "Landing Monitor",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:52"
+          },
+          "nb-NO": {
+            "Text": "Landing Monitor",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:56"
+          },
+          "nl-NL": {
+            "Text": "Landing Monitor",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:00"
+          },
+          "pl-PL": {
+            "Text": "Landing Monitor",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:06"
+          },
+          "pt-BR": {
+            "Text": "Landing Monitor",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:13"
+          },
+          "pt-PT": {
+            "Text": "Landing Monitor",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:19"
+          },
+          "ru-RU": {
+            "Text": "Landing Monitor",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:28"
+          },
+          "sv-SE": {
+            "Text": "Landing Monitor",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:40"
+          },
+          "zh-CN": {
+            "Text": "Landing Monitor",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:56"
+          },
+          "en-GB": {
+            "Text": "Landing Monitor",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:22:14"
+          },
+          "en-AU": {
+            "Text": "Landing Monitor",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:20:09"
+          }
+        }
+      },
+      "LANDING.UNIT_FEET": {
+        "UUID": "14b70b20-0891-4f13-a55b-cf8e8b0e1552",
+        "LastModifiedBy": "davem",
+        "LastModifiedDate": "2022-11-16 13:22:14",
+        "LocalizationStatus": "Active",
+        "Languages": {
+          "en-US": {
+            "Text": "feet",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:07:31"
+          },
+          "de-DE": {
+            "Text": "feet",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:25"
+          },
+          "es-ES": {
+            "Text": "feet",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:32"
+          },
+          "fi-FI": {
+            "Text": "feet",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:04"
+          },
+          "fr-FR": {
+            "Text": "feet",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:12"
+          },
+          "it-IT": {
+            "Text": "feet",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:22"
+          },
+          "es-MX": {
+            "Text": "feet",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:45"
+          },
+          "ja-JP": {
+            "Text": "feet",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:52"
+          },
+          "nb-NO": {
+            "Text": "feet",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:56"
+          },
+          "nl-NL": {
+            "Text": "feet",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:00"
+          },
+          "pl-PL": {
+            "Text": "feet",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:06"
+          },
+          "pt-BR": {
+            "Text": "feet",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:13"
+          },
+          "pt-PT": {
+            "Text": "feet",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:19"
+          },
+          "ru-RU": {
+            "Text": "feet",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:28"
+          },
+          "sv-SE": {
+            "Text": "feet",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:40"
+          },
+          "zh-CN": {
+            "Text": "feet",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:56"
+          },
+          "en-GB": {
+            "Text": "feet",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:22:14"
+          },
+          "en-AU": {
+            "Text": "feet",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:20:09"
+          }
+        }
+      },
+      "LANDING.UNIT_KNOTS": {
+        "UUID": "0a0ccadb-133b-47e6-be28-cc4393abe66b",
+        "LastModifiedBy": "davem",
+        "LastModifiedDate": "2022-11-16 13:22:14",
+        "LocalizationStatus": "Active",
+        "Languages": {
+          "en-US": {
+            "Text": "knots",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:07:31"
+          },
+          "de-DE": {
+            "Text": "knots",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:25"
+          },
+          "es-ES": {
+            "Text": "knots",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:32"
+          },
+          "fi-FI": {
+            "Text": "knots",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:04"
+          },
+          "fr-FR": {
+            "Text": "knots",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:12"
+          },
+          "it-IT": {
+            "Text": "knots",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:22"
+          },
+          "es-MX": {
+            "Text": "knots",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:45"
+          },
+          "ja-JP": {
+            "Text": "knots",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:52"
+          },
+          "nb-NO": {
+            "Text": "knots",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:56"
+          },
+          "nl-NL": {
+            "Text": "knots",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:00"
+          },
+          "pl-PL": {
+            "Text": "knots",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:06"
+          },
+          "pt-BR": {
+            "Text": "knots",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:13"
+          },
+          "pt-PT": {
+            "Text": "knots",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:19"
+          },
+          "ru-RU": {
+            "Text": "knots",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:28"
+          },
+          "sv-SE": {
+            "Text": "knots",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:40"
+          },
+          "zh-CN": {
+            "Text": "knots",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:56"
+          },
+          "en-GB": {
+            "Text": "knots",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:22:14"
+          },
+          "en-AU": {
+            "Text": "knots",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:20:09"
+          }
+        }
+      },
+      "LANDING.VERTICAL_SPEED": {
+        "UUID": "580980eb-bcb0-4187-bfe5-3e37597b5cf0",
+        "LastModifiedBy": "davem",
+        "LastModifiedDate": "2022-11-16 13:22:14",
+        "LocalizationStatus": "Active",
+        "Languages": {
+          "en-US": {
+            "Text": "Vertical Speed",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:07:31"
+          },
+          "de-DE": {
+            "Text": "Vertical Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:24"
+          },
+          "es-ES": {
+            "Text": "Vertical Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:32"
+          },
+          "fi-FI": {
+            "Text": "Vertical Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:04"
+          },
+          "fr-FR": {
+            "Text": "Vertical Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:12"
+          },
+          "it-IT": {
+            "Text": "Vertical Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:22"
+          },
+          "es-MX": {
+            "Text": "Vertical Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:45"
+          },
+          "ja-JP": {
+            "Text": "Vertical Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:52"
+          },
+          "nb-NO": {
+            "Text": "Vertical Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:56"
+          },
+          "nl-NL": {
+            "Text": "Vertical Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:00"
+          },
+          "pl-PL": {
+            "Text": "Vertical Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:06"
+          },
+          "pt-BR": {
+            "Text": "Vertical Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:13"
+          },
+          "pt-PT": {
+            "Text": "Vertical Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:19"
+          },
+          "ru-RU": {
+            "Text": "Vertical Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:28"
+          },
+          "sv-SE": {
+            "Text": "Vertical Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:40"
+          },
+          "zh-CN": {
+            "Text": "Vertical Speed",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:56"
+          },
+          "en-GB": {
+            "Text": "Vertical Speed",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:22:14"
+          },
+          "en-AU": {
+            "Text": "Vertical Speed",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:20:09"
+          }
+        }
+      },
+      "LANDING.WIND": {
+        "UUID": "e94296ea-6094-4c20-b5ac-813feb6a4621",
+        "LastModifiedBy": "davem",
+        "LastModifiedDate": "2022-11-16 13:22:14",
+        "LocalizationStatus": "Active",
+        "Languages": {
+          "en-US": {
+            "Text": "Wind",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:07:31"
+          },
+          "de-DE": {
+            "Text": "Wind",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:25"
+          },
+          "es-ES": {
+            "Text": "Wind",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:10:32"
+          },
+          "fi-FI": {
+            "Text": "Wind",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:04"
+          },
+          "fr-FR": {
+            "Text": "Wind",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:12"
+          },
+          "it-IT": {
+            "Text": "Wind",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:22"
+          },
+          "es-MX": {
+            "Text": "Wind",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:45"
+          },
+          "ja-JP": {
+            "Text": "Wind",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:52"
+          },
+          "nb-NO": {
+            "Text": "Wind",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:11:56"
+          },
+          "nl-NL": {
+            "Text": "Wind",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:00"
+          },
+          "pl-PL": {
+            "Text": "Wind",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:06"
+          },
+          "pt-BR": {
+            "Text": "Wind",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:13"
+          },
+          "pt-PT": {
+            "Text": "Wind",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:19"
+          },
+          "ru-RU": {
+            "Text": "Wind",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:28"
+          },
+          "sv-SE": {
+            "Text": "Wind",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:40"
+          },
+          "zh-CN": {
+            "Text": "Wind",
+            "LocalizationStatus": "TranslationNeeded",
+            "LastModifiedDate": "2022-11-16 13:12:56"
+          },
+          "en-GB": {
+            "Text": "Wind",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:22:14"
+          },
+          "en-AU": {
+            "Text": "Wind",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2022-11-16 13:20:09"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>LandingMonitorProject</Name>
+  <ProjectPackageTime>2022-11-16T11:28:23.9528348-05:00</ProjectPackageTime>
+  <AvailableLanguages>
+    <Language Name="English(US)" IsoCode="en-US" />
+    <Language Name="German" IsoCode="de-DE" />
+    <Language Name="Spanish(Spain)" IsoCode="es-ES" />
+    <Language Name="Finnish" IsoCode="fi-FI" />
+    <Language Name="French(France)" IsoCode="fr-FR" />
+    <Language Name="Italian" IsoCode="it-IT" />
+    <Language Name="Spanish(Latin America)" IsoCode="es-MX" />
+    <Language Name="Japanese" IsoCode="ja-JP" />
+    <Language Name="Norwegian" IsoCode="nb-NO" />
+    <Language Name="Dutch" IsoCode="nl-NL" />
+    <Language Name="Polish" IsoCode="pl-PL" />
+    <Language Name="Portuguese(Brazil)" IsoCode="pt-BR" />
+    <Language Name="Portuguese(Portugal)" IsoCode="pt-PT" />
+    <Language Name="Russian" IsoCode="ru-RU" />
+    <Language Name="Swedish" IsoCode="sv-SE" />
+    <Language Name="Chinese(Simplified)" IsoCode="zh-CN" />
+    <Language Name="Korean" IsoCode="ko-KR" />
+    <Language Name="English(UK)" IsoCode="en-GB" />
+    <Language Name="Danish" IsoCode="da-DK" />
+    <Language Name="French(Canada)" IsoCode="fr-CA" />
+    <Language Name="Arabic" IsoCode="ar" />
+    <Language Name="English(Australia)" IsoCode="en-AU" />
+    <Language Name="Turkish(Turkey)" IsoCode="tr-TR" />
+  </AvailableLanguages>
+  <SourceLanguage Name="English(US)" IsoCode="en-US" />
+  <LanguageSelectedVoices />
+  <TagDescriptions>
+    <TagDescription Name="Locked" TagType="Bool">
+      <EnumNames>
+        <EnumName xsi:nil="true" />
+      </EnumNames>
+    </TagDescription>
+    <TagDescription Name="MaxLength" TagType="Int">
+      <EnumNames />
+    </TagDescription>
+  </TagDescriptions>
+  <OutputBuses>
+    <OutputBus>VO_GPWS</OutputBus>
+    <OutputBus>VO_ATC</OutputBus>
+    <OutputBus>VO_DEFAULT</OutputBus>
+    <OutputBus>VO_COPILOT</OutputBus>
+    <OutputBus>VO_NARRATOR</OutputBus>
+    <OutputBus>VO_ATC_LEGACY</OutputBus>
+    <OutputBus>VO_COMMENTATOR</OutputBus>
+    <OutputBus>VO_PILOT</OutputBus>
+  </OutputBuses>
+  <ExternalLocalizationFolders />
+</Project>
