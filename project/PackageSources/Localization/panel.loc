@@ -105,8 +105,8 @@
             "LastModifiedDate": "2022-11-16 13:12:40"
           },
           "zh-CN": {
-            "Text": "Bank Angle",
-            "LocalizationStatus": "TranslationNeeded",
+            "Text": "倾斜角",
+            "LocalizationStatus": "TranslationOk",
             "LastModifiedDate": "2022-11-16 13:12:56"
           },
           "en-GB": {
@@ -203,8 +203,8 @@
             "LastModifiedDate": "2022-11-16 13:12:40"
           },
           "zh-CN": {
-            "Text": "Bounces",
-            "LocalizationStatus": "TranslationNeeded",
+            "Text": "弹跳",
+            "LocalizationStatus": "TranslationOk",
             "LastModifiedDate": "2022-11-16 13:12:56"
           },
           "en-GB": {
@@ -301,8 +301,8 @@
             "LastModifiedDate": "2022-11-16 13:12:40"
           },
           "zh-CN": {
-            "Text": "Flying",
-            "LocalizationStatus": "TranslationNeeded",
+            "Text": "飞行",
+            "LocalizationStatus": "TranslationOk",
             "LastModifiedDate": "2022-11-16 13:12:56"
           },
           "en-GB": {
@@ -399,8 +399,8 @@
             "LastModifiedDate": "2022-11-16 13:12:40"
           },
           "zh-CN": {
-            "Text": "Flight Path Angle",
-            "LocalizationStatus": "TranslationNeeded",
+            "Text": "航迹倾角",
+            "LocalizationStatus": "TranslationOk",
             "LastModifiedDate": "2022-11-16 13:12:56"
           },
           "en-GB": {
@@ -497,8 +497,8 @@
             "LastModifiedDate": "2022-11-16 13:12:40"
           },
           "zh-CN": {
-            "Text": "FPM",
-            "LocalizationStatus": "TranslationNeeded",
+            "Text": "英尺/分钟",
+            "LocalizationStatus": "TranslationOk",
             "LastModifiedDate": "2022-11-16 13:12:56"
           },
           "en-GB": {
@@ -595,8 +595,8 @@
             "LastModifiedDate": "2022-11-16 13:12:40"
           },
           "zh-CN": {
-            "Text": "Ground Speed",
-            "LocalizationStatus": "TranslationNeeded",
+            "Text": "地速",
+            "LocalizationStatus": "TranslationOk",
             "LastModifiedDate": "2022-11-16 13:12:56"
           },
           "en-GB": {
@@ -693,8 +693,8 @@
             "LastModifiedDate": "2022-11-16 13:12:40"
           },
           "zh-CN": {
-            "Text": "Height (AGL)",
-            "LocalizationStatus": "TranslationNeeded",
+            "Text": "离地高度 (AGL)",
+            "LocalizationStatus": "TranslationOk",
             "LastModifiedDate": "2022-11-16 13:12:56"
           },
           "en-GB": {
@@ -791,8 +791,8 @@
             "LastModifiedDate": "2022-11-16 13:12:40"
           },
           "zh-CN": {
-            "Text": "Landing",
-            "LocalizationStatus": "TranslationNeeded",
+            "Text": "着陆",
+            "LocalizationStatus": "TranslationOk",
             "LastModifiedDate": "2022-11-16 13:12:56"
           },
           "en-GB": {
@@ -889,8 +889,8 @@
             "LastModifiedDate": "2022-11-16 13:12:40"
           },
           "zh-CN": {
-            "Text": "On Ground",
-            "LocalizationStatus": "TranslationNeeded",
+            "Text": "地面",
+            "LocalizationStatus": "TranslationOk",
             "LastModifiedDate": "2022-11-16 13:12:56"
           },
           "en-GB": {
@@ -987,8 +987,8 @@
             "LastModifiedDate": "2022-11-16 13:12:40"
           },
           "zh-CN": {
-            "Text": "Pitch Angle",
-            "LocalizationStatus": "TranslationNeeded",
+            "Text": "俯仰角",
+            "LocalizationStatus": "TranslationOk",
             "LastModifiedDate": "2022-11-16 13:12:56"
           },
           "en-GB": {
@@ -1085,8 +1085,8 @@
             "LastModifiedDate": "2022-11-16 13:12:40"
           },
           "zh-CN": {
-            "Text": "Landing Monitor",
-            "LocalizationStatus": "TranslationNeeded",
+            "Text": "着陆监视器",
+            "LocalizationStatus": "TranslationOk",
             "LastModifiedDate": "2022-11-16 13:12:56"
           },
           "en-GB": {
@@ -1183,8 +1183,8 @@
             "LastModifiedDate": "2022-11-16 13:12:40"
           },
           "zh-CN": {
-            "Text": "feet",
-            "LocalizationStatus": "TranslationNeeded",
+            "Text": "英尺",
+            "LocalizationStatus": "TranslationOk",
             "LastModifiedDate": "2022-11-16 13:12:56"
           },
           "en-GB": {
@@ -1281,8 +1281,8 @@
             "LastModifiedDate": "2022-11-16 13:12:40"
           },
           "zh-CN": {
-            "Text": "knots",
-            "LocalizationStatus": "TranslationNeeded",
+            "Text": "节",
+            "LocalizationStatus": "TranslationOk",
             "LastModifiedDate": "2022-11-16 13:12:56"
           },
           "en-GB": {
@@ -1379,8 +1379,8 @@
             "LastModifiedDate": "2022-11-16 13:12:40"
           },
           "zh-CN": {
-            "Text": "Vertical Speed",
-            "LocalizationStatus": "TranslationNeeded",
+            "Text": "垂直速度",
+            "LocalizationStatus": "TranslationOk",
             "LastModifiedDate": "2022-11-16 13:12:56"
           },
           "en-GB": {
@@ -1477,8 +1477,8 @@
             "LastModifiedDate": "2022-11-16 13:12:40"
           },
           "zh-CN": {
-            "Text": "Wind",
-            "LocalizationStatus": "TranslationNeeded",
+            "Text": "风",
+            "LocalizationStatus": "TranslationOk",
             "LastModifiedDate": "2022-11-16 13:12:56"
           },
           "en-GB": {
