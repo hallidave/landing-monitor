@@ -31,6 +31,7 @@ class LandingMonitor extends TemplateElement {
 
     private readonly mainloopFunc: () => void;
     private isRunning: boolean;
+    private isFirstUpdate: boolean;
 
     constructor() {
         super();
@@ -40,14 +41,15 @@ class LandingMonitor extends TemplateElement {
         this.touchdownPublisher = new TouchdownPublisher(this.bus);
 
         this.isRunning = false;
+        this.isFirstUpdate = false;
         this.mainloopFunc = this.mainloop.bind(this);
     }
 
     connectedCallback() {
         super.connectedCallback();
         console.log("connected");
-        FSComponent.render(<LandingStatus bus={this.bus} />, document.getElementById("LandingContent"));
         this.isRunning = true;
+        this.isFirstUpdate = true;
         this.init();
         this.startMainloop();
     }
@@ -70,6 +72,10 @@ class LandingMonitor extends TemplateElement {
         }
         try {
             if (simvarIsReady()) {
+                if(this.isFirstUpdate) {
+	                FSComponent.render(<LandingStatus bus={this.bus} />, document.getElementById("LandingContent"));
+	                this.isFirstUpdate = false;
+                }
                 this.update();
             }
         } catch (err) {
