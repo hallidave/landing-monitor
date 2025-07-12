@@ -20,18 +20,24 @@ class LandingController {
     // time on ground to longer be a bounce
     private readonly bounceTime = 3 * 1000;
     private readonly flyingTime = 10 * 1000;
+    private readonly gBufferTime = 1000;
+    private readonly gUpdatesAfterTouch = 3;
 
     private state = State.Unknown;
     private bounceCount = 0;
+    private gValues: {ts: number, gforce: number}[] = [];
     private onGround: boolean = true;
     private timer: any;
     private isTimerExpired = true;
     private statusText: Subject<StatusText>;
     private bounces: Subject<number>;
+    private maxG: Subject<number>;
+    private gUpdatesCount = 0;
 
-    constructor(statusText: Subject<StatusText>, bounces: Subject<number>) {
+    constructor(statusText: Subject<StatusText>, bounces: Subject<number>, maxG: Subject<number>) {
         this.statusText = statusText;
         this.bounces = bounces;
+        this.maxG = maxG;
     }
 
     setTimer(time: number): void {
@@ -42,12 +48,48 @@ class LandingController {
 
     public eventOnGround(onGroundEvent: boolean): void {
         this.onGround = onGroundEvent;
+        this.startGUpdate(onGroundEvent);
         this.updateState();
     }
 
     public eventTimerExpiry(): void {
         this.isTimerExpired = true;
         this.updateState();
+    }
+
+    private resetGBuffer(): void {
+        this.gValues = [];
+    }
+
+    private updateG(gval: number): void {
+        const now = Date.now();
+        while(this.gUpdatesCount == 0 && this.gValues.length > 0
+             && now - this.gValues[0].ts >= this.gBufferTime) {
+           this.gValues.pop()
+        }
+        this.gValues.push({ts: now, gforce: gval})
+        if(this.gUpdatesCount) {
+            this.updateMaxG();
+            this.gUpdatesCount--;
+        }
+    }
+
+    private updateMaxG(): void {
+        var max = 0.0;
+        this.gValues.forEach(function (value) {
+           if(max < value.gforce)
+               max = value.gforce;
+        });
+        this.maxG.set(max);
+    }
+
+    private startGUpdate(running: boolean): void {
+        this.gUpdatesCount = running ? this.gUpdatesAfterTouch : 0;
+        if(running) {
+            this.updateMaxG();
+        } else {
+            this.resetGBuffer();
+        }
     }
 
     public updateState() {
@@ -126,8 +168,9 @@ export class LandingStatus extends DisplayComponent<LandingProps> {
 
     private statusText = Subject.create<StatusText>("ON_GROUND");
     private bounces = Subject.create<number>(0);
+    private maxG = Subject.create<number>(0);
 
-    private readonly controller = new LandingController(this.statusText, this.bounces);
+    private readonly controller = new LandingController(this.statusText, this.bounces, this.maxG);
     private readonly statusRef = FSComponent.createRef<HTMLElement>();
     private readonly approachRef = FSComponent.createRef<HTMLElement>();
     private readonly touchdownRef = FSComponent.createRef<HTMLElement>();
@@ -138,6 +181,9 @@ export class LandingStatus extends DisplayComponent<LandingProps> {
         const tdEvents = props.bus.getSubscriber<LandingStatusEvents>();
         tdEvents.on("on_ground").whenChanged().handle((onGround) => {
             this.controller.eventOnGround(onGround);
+        });
+        tdEvents.on("gforce").withPrecision(2).handle(gforce => {
+            this.controller.updateG(gforce);
         });
     }
 
@@ -151,7 +197,7 @@ export class LandingStatus extends DisplayComponent<LandingProps> {
                     <ApproachDisplay bus={this.props.bus} />
                 </div>
                 <div ref={this.touchdownRef} style="display: block;">
-                    <TouchdownDisplay bus={this.props.bus} bounces={this.bounces} />
+                    <TouchdownDisplay bus={this.props.bus} bounces={this.bounces} maxG={this.maxG}/>
                 </div>
             </div>
         );
