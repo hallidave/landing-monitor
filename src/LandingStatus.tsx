@@ -188,15 +188,16 @@ export class LandingStatus extends DisplayComponent<LandingProps> {
     }
 
     public render(): VNode {
+        var flying = (this.statusText.get() == "FLYING");
         return (
             <div id="LandingStatus">
                 <div ref={this.statusRef} id="Status">
                     {Translate.text(this.statusText.get())}
                 </div>
-                <div ref={this.approachRef} style="display: none;">
+                <div ref={this.approachRef} style={flying ? "display: block;" : "display: none;"}>
                     <ApproachDisplay bus={this.props.bus} />
                 </div>
-                <div ref={this.touchdownRef} style="display: block;">
+                <div ref={this.touchdownRef} style={flying ? "display: none;" : "display: block;"}>
                     <TouchdownDisplay bus={this.props.bus} bounces={this.bounces} maxG={this.maxG}/>
                 </div>
             </div>
