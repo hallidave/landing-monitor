@@ -14,7 +14,7 @@ This project is based on the [MSFS Avionics Framework](https://microsoft.github.
 
 You will need Node, npm, and git installed before building. Full details on setting up your environment are available from the MSFS Avionics Framework site.
 
-You also need to install the [MSFS SDK](https://docs.flightsimulator.com/html/Introduction/SDK_Overview.htm). The build for the Landing Monitor looks for the SDK directory identified by the `MSFS_SDK` environment variable. This variable should be set by the SDK installer (default `C:\MSFS SDK`).
+You also need to install the [MSFS 2024 SDK](https://docs.flightsimulator.com/msfs2024/html/1_Introduction/SDK_Overview.htm). The build for the Landing Monitor looks for the SDK directory identified by the `MSFS2024_SDK` environment variable. This variable should be set by the SDK installer (default `C:\MSFS 2024 SDK`).
 
 Once everything is installed, execute the follow commands:
 
