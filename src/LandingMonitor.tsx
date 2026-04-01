@@ -30,7 +30,8 @@ class LandingMonitor extends TemplateElement {
 
     constructor() {
         super();
-        this.bus = new EventBus();
+        // RegisterGenericDataListener is not available in in-game panel contexts, so disable cross-view sync
+        this.bus = new EventBus(() => ({ sendSyncedEvent: () => {} }));
         this.landingStatusPublisher = new LandingStatusPublisher(this.bus);
         this.approachPublisher = new ApproachPublisher(this.bus);
         this.touchdownPublisher = new TouchdownPublisher(this.bus);
@@ -67,9 +68,9 @@ class LandingMonitor extends TemplateElement {
         }
         try {
             if (simvarIsReady()) {
-                if(this.isFirstUpdate) {
-	                FSComponent.render(<LandingStatus bus={this.bus} />, document.getElementById("LandingContent"));
-	                this.isFirstUpdate = false;
+                if (this.isFirstUpdate) {
+                    FSComponent.render(<LandingStatus bus={this.bus} />, document.getElementById("LandingContent"));
+                    this.isFirstUpdate = false;
                 }
                 this.update();
             }
