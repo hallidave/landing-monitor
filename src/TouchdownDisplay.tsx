@@ -1,5 +1,4 @@
-import { ComponentProps, DisplayComponent, FSComponent, Subject, Subscribable, VNode } from 'msfssdk';
-import { EventBus } from 'msfssdk/data';
+import { ComponentProps, DisplayComponent, FSComponent, Subject, Subscribable, VNode, EventBus } from '@microsoft/msfs-sdk';
 import { ApproachEvents } from './ApproachEvents';
 import "./TouchdownDisplay.css";
 import { TouchdownEvents } from './TouchdownEvents';

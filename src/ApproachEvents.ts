@@ -1,5 +1,4 @@
-import { EventBus, PublishPacer, SimVarValueType } from "msfssdk/data";
-import { BasePublisher } from "msfssdk/instruments";
+import { EventBus, PublishPacer, SimVarValueType, BasePublisher } from "@microsoft/msfs-sdk";
 
 export interface ApproachEvents {
     // Vertical speed in feet per minute

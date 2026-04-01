@@ -11,6 +11,6 @@ export default {
   plugins: [
     css({ output: 'LandingMonitor.css' }),
     resolve(),
-    typescript()
+    typescript({ outputToFilesystem: true })
   ]
 }

@@ -1,9 +1,4 @@
-/// <reference types="msfstypes/JS/common" />
-/// <reference types="msfstypes/JS/simvar" />
-/// <reference types="msfstypes/JS/simplane" />
-
-import { FSComponent } from "msfssdk";
-import { EventBus } from "msfssdk/data";
+import { FSComponent, EventBus } from "@microsoft/msfs-sdk";
 import { ApproachPublisher } from "./ApproachEvents";
 import { LandingStatus } from "./LandingStatus";
 import { LandingStatusPublisher } from "./LandingStatusEvents";

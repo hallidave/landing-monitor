@@ -1,5 +1,4 @@
-import { ComponentProps, DisplayComponent, FSComponent, Subject, VNode } from "msfssdk";
-import { EventBus } from "msfssdk/data";
+import { ComponentProps, DisplayComponent, FSComponent, Subject, VNode, EventBus } from "@microsoft/msfs-sdk";
 import "./ApproachDisplay.css";
 import { ApproachEvents } from "./ApproachEvents";
 import { Translate } from './Translate';

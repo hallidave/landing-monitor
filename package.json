@@ -1,6 +1,6 @@
 {
   "name": "daves-landing-monitor",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -17,18 +17,16 @@
   "author": "Dave Halliday",
   "license": "MIT",
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^13.3.0",
-    "@rollup/plugin-typescript": "^8.5.0",
-    "@types/node": "^16.11.0",
+    "@microsoft/msfs-sdk": "^2.3.3",
+    "@microsoft/msfs-types": "^1.14.6",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-typescript": "^12.3.0",
+    "@types/node": "^25.5.0",
     "copyfiles": "^2.4.1",
-    "msfstypes": "file:../msfs-avionics-mirror/src/msfstypes",
-    "rollup": "^2.79.1",
-    "rollup-plugin-import-css": "^3.0.3",
-    "ts-node": "^10.8.1",
-    "tslib": "^2.4.0",
-    "typescript": "^4.8.4"
-  },
-  "dependencies": {
-    "msfssdk": "file:../msfs-avionics-mirror/src/sdk/build"
+    "rollup": "^4.60.1",
+    "rollup-plugin-import-css": "^4.2.0",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^6.0.2"
   }
 }

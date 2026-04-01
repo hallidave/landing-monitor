@@ -1,5 +1,4 @@
-import { EventBus, PublishPacer, SimVarDefinition, SimVarValueType } from "msfssdk/data";
-import { SimVarPublisher } from "msfssdk/instruments";
+import { EventBus, PublishPacer, SimVarDefinition, SimVarValueType, SimVarPublisher } from "@microsoft/msfs-sdk";
 
 export interface LandingStatusEvents {
     /* true if we are touching the ground */
