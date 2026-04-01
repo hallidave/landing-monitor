@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:microsoft.github.io)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:forums.flightsimulator.com)",
+      "Bash(gh api:*)",
+      "Bash(python3 -c \"import json,sys; issues=json.load\\(sys.stdin\\); [print\\(i['number'], i['title']\\) for i in issues if any\\(kw in i['title'].lower\\(\\) or kw in \\(i.get\\('body'\\) or ''\\).lower\\(\\) for kw in ['registergenericdatalistener','eventbus','synchandlerfactory','in-game panel','ingame']\\)]\")",
+      "Bash(python3 -c \"import json,sys; tree=json.load\\(sys.stdin\\); [print\\(f['path']\\) for f in tree.get\\('tree',[]\\) if 'eventbus' in f['path'].lower\\(\\) or 'sync' in f['path'].lower\\(\\)]\")",
+      "Bash(gh issue:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:devsupport.flightsimulator.com)",
+      "WebFetch(domain:docs.flightsimulator.com)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); deps={**d.get\\('dependencies',{}\\), **d.get\\('devDependencies',{}\\)}; [print\\(k,v\\) for k,v in deps.items\\(\\) if 'msfs' in k.lower\\(\\)]\")"
+    ]
+  }
+}
