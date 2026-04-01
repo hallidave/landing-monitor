@@ -10,7 +10,7 @@ Download the latest release, unzip, and copy the `hallidave-tool-landing` folder
 
 ## Building
 
-This project is based on the [MSFS Avionics Framework](https://microsoft.github.io/msfs-avionics-mirror/). You will need to clone and build the framework code before building the Landing Monitor code.
+This project is based on the [MSFS Avionics Framework](https://microsoft.github.io/msfs-avionics-mirror/2024/). You will need to clone and build the framework code before building the Landing Monitor code.
 
 You will need Node, npm, and git installed before building. Full details on setting up your environment are available from the MSFS Avionics Framework site.
 
