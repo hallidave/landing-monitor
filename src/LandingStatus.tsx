@@ -57,11 +57,7 @@ class LandingController {
         this.updateState();
     }
 
-    private resetGBuffer(): void {
-        this.gValues = [];
-    }
-
-    private updateG(gval: number): void {
+    public updateG(gval: number): void {
         const now = Date.now();
         while(this.gUpdatesCount == 0 && this.gValues.length > 0
              && now - this.gValues[0].ts >= this.gBufferTime) {
@@ -72,6 +68,10 @@ class LandingController {
             this.updateMaxG();
             this.gUpdatesCount--;
         }
+    }
+
+    private resetGBuffer(): void {
+        this.gValues = [];
     }
 
     private updateMaxG(): void {
