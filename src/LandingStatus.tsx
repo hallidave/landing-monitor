@@ -20,8 +20,8 @@ class LandingController {
     // time on ground to longer be a bounce
     private readonly bounceTime = 3 * 1000;
     private readonly flyingTime = 10 * 1000;
+    // G force capture window before and after touchdown
     private readonly gBufferTime = 1000;
-    private readonly gUpdatesAfterTouch = 3;
 
     private state = State.Unknown;
     private bounceCount = 0;
@@ -32,7 +32,7 @@ class LandingController {
     private statusText: Subject<StatusText>;
     private bounces: Subject<number>;
     private maxG: Subject<number>;
-    private gUpdatesCount = 0;
+    private touchdownTs: number | null = null;
 
     constructor(statusText: Subject<StatusText>, bounces: Subject<number>, maxG: Subject<number>) {
         this.statusText = statusText;
@@ -59,14 +59,22 @@ class LandingController {
 
     public updateG(gval: number): void {
         const now = Date.now();
-        while(this.gUpdatesCount == 0 && this.gValues.length > 0
-             && now - this.gValues[0].ts >= this.gBufferTime) {
-           this.gValues.pop()
+        if(this.touchdownTs !== null && now - this.touchdownTs > this.gBufferTime) {
+            this.touchdownTs = null;
+        }
+        if(this.touchdownTs === null) {
+            this.trimGBuffer(now);
         }
         this.gValues.push({ts: now, gforce: gval})
-        if(this.gUpdatesCount) {
+        if(this.touchdownTs !== null) {
             this.updateMaxG();
-            this.gUpdatesCount--;
+        }
+    }
+
+    private trimGBuffer(now: number): void {
+        while(this.gValues.length > 0
+             && now - this.gValues[0].ts >= this.gBufferTime) {
+           this.gValues.shift();
         }
     }
 
@@ -84,10 +92,11 @@ class LandingController {
     }
 
     private startGUpdate(running: boolean): void {
-        this.gUpdatesCount = running ? this.gUpdatesAfterTouch : 0;
         if(running) {
-            this.updateMaxG();
+            this.touchdownTs = Date.now();
+            this.trimGBuffer(this.touchdownTs);
         } else {
+            this.touchdownTs = null;
             this.resetGBuffer();
         }
     }
